@@ -24,9 +24,7 @@
 
 <br/>
 
-Eslint 是一个JS代码的检测工具，可以用来检测一些常见的JS代码错误，也可以用来制定一些代码约束，来保证代码风格的一致性，公司现在也在制定推行各种语言的代码规范，针对JS的规范可查看 [编码规范](https://git.woa.com/standards/javascript)，所以对于新开发的项目最好也是跟着公司级的标准走。
-
-脚手架目前默认接入了 [@tencent/eslint-config-tencent](https://mirrors.tencent.com/#/private/npm/detail?repo_id=537&project_name=%40tencent%2Feslint-config-tencent)，你不需要额外做些什么。
+Eslint 是一个JS代码的检测工具，可以用来检测一些常见的JS代码错误，也可以用来制定一些代码约束，来保证代码风格的一致性。
 
 <br/>
 
@@ -156,17 +154,5 @@ mocha的各种使用姿势可以参考阮老师的[这篇文章](http://www.ruan
 在本地开发npm模块的时候，我们可以使用npm link命令，将npm 模块链接到对应的运行项目中去，方便地对模块进行调试和测试。
 
 具体使用方法可以参考[官方文档](https://docs.npmjs.com/cli/v7/commands/npm-link) 或者 [这篇简单的介绍](https://www.jianshu.com/p/aaa7db89a5b2)。
-
-<br/>
-
-## 包发布
-
-<br/>
-
-在项目开发以及测试完毕之后，我们就需要进行项目包的发布，因为我们的包主要是提供给内网用，所以可以使用公司的 tnpm 服务，详见[内部NPM服务](https://mirrors.tencent.com/#/private/npm)。
-
-包发布流程：
-
-参考这个[链接](https://iwiki.woa.com/pages/viewpage.action?pageId=113585381)。
 
 <br/>
